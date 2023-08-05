@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/quicksand.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(70, 35, 87, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 300px;
+    height: 400px;
+    background-image: url(/img/barco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(70, 35, 87, 1);
+    background-blend-mode: normal;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.header .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(70, 35, 87, 0.4);
+}
+
+.header .title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80vw;
+}
+
+.title h1 {
+    font-family: Quicksand, sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.5px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1000px;
+    min-width: 50vw;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.column {
+    height: 100%;
+    display: flex;
+}
+
+.picture, .links {
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin: 20px;
+}
+
+.links h2 {
+    font-family: Quicksand, sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.links img {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.links a, .links a:visited {
+    color: white;
+}
+
+.links li {
+    padding-bottom: 5px;
+}
