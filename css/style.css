@@ -72,10 +72,6 @@ body {
     .title h1 {
         min-width: 350px;
     }
-
-    .hegader .title {
-        /* width: 100%; */
-    }
 }
 
 .content {
